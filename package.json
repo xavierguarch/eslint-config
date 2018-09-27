@@ -1,11 +1,11 @@
 {
-  "name": "eslint-config-techchange",
-  "version": "0.2.0",
-  "description": "TechChange's default ESLint configurations for ES2015 and React.",
+  "name": "eslint-config-safelayer",
+  "version": "0.3.0",
+  "description": "Default ESLint configurations for ES2015 and React, based on TechChange's one.",
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/techchange/eslint-config.git"
+    "url": "git+https://github.com/xavierguarch/eslint-config.git"
   },
   "keywords": [
     "eslint",
@@ -22,27 +22,17 @@
   },
   "contributors": [
     {
-      "name": "Will Chester",
-      "email": "will@techchange.org",
-      "url": "techchange.org"
-    },
-    {
-      "name": "Matthew Heck",
-      "email": "matthew@techchange.org",
-      "url": "techchange.org"
-    },
-    {
-      "name": "Gabe Isman",
-      "email": "gabe.isman@gmail.com"
+      "name": "Xavier Guarch",
+      "url": "https://www.safelayer.com"
     }
   ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/techchange/eslint-config/issues"
+    "url": "https://github.com/xavierguarch/eslint-config/issues"
   },
-  "homepage": "https://github.com/techchange/eslint-config#readme",
+  "homepage": "https://github.com/xavierguarch/eslint-config#readme",
   "peerDependencies": {
-    "eslint": "^3.19.0",
-    "eslint-plugin-react": "~7.0.1"
+    "eslint": "^4.1.1",
+    "eslint-plugin-react": "^7.0.1"
   }
 }
