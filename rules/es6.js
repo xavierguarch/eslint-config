@@ -33,8 +33,8 @@ module.exports = {
     "prefer-reflect": 1,
     // Require the use of the spread operator instead of using Function.prototype.apply() function. Need to discuss with team. Probably a good idea, but only in ES6 environments.
     "prefer-spread": 1,
-    // Require use of template literals over string concatenation (e.g. var str = `Hello ${world}!`; rather than var str = "Hello " + world;). Need to discuss with team. Probably a good idea, but only in ES6 environments.
-    "prefer-template": 1,
+    // Require use of template literals over string concatenation (e.g. var str = `Hello ${world}!`; rather than var str = "Hello " + world;).
+    "prefer-template": 2,
     // Require the use of yield expression in generator functions (without yield there is no reason to use a generator). Need to discuss with team. Probably a good idea, but only in ES6 environments
     "require-yield": 1
   }
