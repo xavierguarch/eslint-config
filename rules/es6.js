@@ -21,8 +21,8 @@ module.exports = {
     "no-dupe-class-members": 2,
     // Disallow referencing this or super before super() call
     "no-this-before-super": 2,
-    // Disallow use of var in favor of let and const. Need to discuss with team.
-    "no-var": 1,
+    // Disallow use of var in favor of let and const.
+    "no-var": 2,
     // Require object literal shorthand definition. Need to discuss with team.
     "object-shorthand": 1,
     // Require use of arrow function notation in callbacks where appropriate. Need to discuss with team. Probably a good idea, but only in ES6 environments.
