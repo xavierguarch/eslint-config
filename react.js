@@ -1,6 +1,6 @@
 module.exports = {
   parser: "babel-eslint",
-  "parser-options": {
+  parserOptions: {
     ecmaVersion: 6,
     ecmaFeatures: {
       impliedStrict: true,
@@ -23,13 +23,13 @@ module.exports = {
   },
   plugins: ["react"],
   extends: [
-    "eslint-config-techchange/rules/possible-errors",
-    "eslint-config-techchange/rules/best-practices",
-    "eslint-config-techchange/rules/variables",
-    "eslint-config-techchange/rules/node",
-    "eslint-config-techchange/rules/es6",
-    "eslint-config-techchange/rules/strict",
-    "eslint-config-techchange/rules/style",
-    "eslint-config-techchange/rules/react"
+    "eslint-config-safelayer/rules/possible-errors",
+    "eslint-config-safelayer/rules/best-practices",
+    "eslint-config-safelayer/rules/variables",
+    "eslint-config-safelayer/rules/node",
+    "eslint-config-safelayer/rules/es6",
+    "eslint-config-safelayer/rules/strict",
+    "eslint-config-safelayer/rules/style",
+    "eslint-config-safelayer/rules/react"
   ]
 };
