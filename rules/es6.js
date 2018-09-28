@@ -21,6 +21,8 @@ module.exports = {
     "no-dupe-class-members": 2,
     // Disallow referencing this or super before super() call
     "no-this-before-super": 2,
+    // Disallow renaming import, export, and destructured assignments to the same name
+    "no-useless-rename": 2,
     // Disallow use of var in favor of let and const.
     "no-var": 2,
     // Require object literal shorthand definition. Need to discuss with team.
