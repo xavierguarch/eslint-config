@@ -39,8 +39,8 @@ module.exports = {
         exceptions: ["i", "_"]
       }
     ],
-    // Enforce tabs equivalent to two spaces
-    indent: [2, "tab"],
+    // Enforce two spaces
+    indent: [2, 2],
     // Enforce double quotes for JSX attribute values unless a set of single quotes contains a double quote
     "jsx-quotes": [2, "prefer-double"],
     // Enforce one space after key in object
@@ -114,6 +114,25 @@ module.exports = {
       2,
       {
         allowForLoopAfterthoughts: true
+      }
+    ],
+    // Disallow specific language constructs: for..in, labels and with.
+    "no-restricted-syntax": [
+      "error",
+      {
+        selector: "ForInStatement",
+        message:
+          "for..in loops iterate over the entire prototype chain, which is virtually never what you want. Use Object.{keys,values,entries}, and iterate over the resulting array."
+      },
+      {
+        selector: "LabeledStatement",
+        message:
+          "Labels are a form of GOTO; using them makes code confusing and hard to maintain and understand."
+      },
+      {
+        selector: "WithStatement",
+        message:
+          "`with` is disallowed in strict mode because it makes code impossible to predict and optimize."
       }
     ],
     // Disallow spaces between function name and parentheses (e.g function ())

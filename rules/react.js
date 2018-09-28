@@ -47,10 +47,8 @@ module.exports = {
         eventHandlerPropPrefix: "on"
       }
     ],
-    // Require a tab indentation in props.
-    "react/jsx-indent-props": ["error", "tab"],
-    // Require tab indentations in all JSX components
-    "react/jsx-indent": ["error", "tab"],
+    // Require two-space indentations in all JSX components
+    "react/jsx-indent": ["error", 2],
     // Require key props to be used.
     "react/jsx-key": "error",
     // Limit number of props on a single line in JSX to 1
