@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-safelayer",
-  "version": "0.6.0",
+  "version": "0.7.0",
   "description": "Default ESLint configurations for ES2015 and React, based on TechChange's one.",
   "main": "index.js",
   "repository": {
@@ -32,7 +32,7 @@
   },
   "homepage": "https://github.com/xavierguarch/eslint-config#readme",
   "peerDependencies": {
-    "eslint": "^4.1.1",
+    "eslint": "^5.0.0",
     "eslint-plugin-react": "^7.0.1"
   }
 }
